@@ -16,14 +16,20 @@ body{
 
 .key{
     font-size: 2rem;
-    border: 1px solid black;
+    border: 1px solid gray;
     flex: 0 1 5%; 
-    background-color: goldenrod;
+    background-color: #da9c20;
     padding: 5px 0px;
-    text-align: center;  
+    text-align: center; 
+    transition: all 0.7s; 
      
 }
 
+.playing{
+    transform:scale(1.2);
+    border: 3px solid rgb(255, 196, 0);
+    box-shadow: 3px 4px;
+}
 .sound{
     font-size: 1rem;
     display: block;
