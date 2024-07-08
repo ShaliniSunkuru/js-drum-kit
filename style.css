@@ -1,0 +1,26 @@
+body{
+    /* height: 100vh; */
+    background-image: url('background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+.keys{
+    display: flex;
+    gap: 2%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.key{
+    font-size: 2rem;
+    border: 1px solid black;
+    flex: 0 1 5%; 
+    background-color: goldenrod;
+    padding: 5px;
+    text-align: center;  
+     
+}
