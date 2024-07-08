@@ -19,7 +19,14 @@ body{
     border: 1px solid black;
     flex: 0 1 5%; 
     background-color: goldenrod;
-    padding: 5px;
+    padding: 5px 0px;
     text-align: center;  
      
+}
+
+.sound{
+    font-size: 1rem;
+    display: block;
+    text-transform: capitalize;
+    color:brown;
 }
