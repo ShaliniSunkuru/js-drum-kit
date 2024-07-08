@@ -3,13 +3,33 @@ body{
     background-image: url('background.jpg');
     background-size:cover;
     background-attachment: fixed;
-    
+    font-family: "Macondo", sans-serif;
+}
+h1, p {
+    margin: 0;
 }
 
+header{
+    text-align: center;
+    margin: 10vh 0;
+    color: brown;
+}
+header h1{
+    /* border: 1px solid black; */
+    font-size: 100px;
+    font-weight: 900; 
+     
+}
+
+header p {
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 5vh;
+}
 .keys{
     display: flex;
     gap: 2%;
-    height: 80vh;
+    height: 40vh;
     justify-content: center;
     align-items: center;
 }

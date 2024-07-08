@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">    
     <title>Drum Kit</title>
 </head>
 <body>
+    <header>
+        <h1>Javascript Drum Kit</h1>
+        <p>Press on a key to play</p>
+    </header>
     <!-- The <kbd> HTML element represents a span of inline text denoting textual user input from a 
         keyboard, voice input, or any other text entry device. By convention, the user agent defaults
          to rendering the contents of a <kbd> element using its default monospace font, 
         although this is not mandated by the HTML standard  --MDN docs -->
-    <div class="keys">
+    
+        <div class="keys">
         <div data-key="65" class="key">
             <kbd>A</kbd>
             <span class="sound">boom</span>
@@ -50,6 +58,7 @@
         </div>
     </div>
 
+    <!-- Audio for the keys - matched with data-key attribute -->
     <audio data-key="65"  src="sounds/boom.wav"></audio data-key="65" >
     <audio data-key="83"  src="sounds/clap.wav"></audio data-key="65" >
     <audio data-key="68"  src="sounds/hihat.wav"></audio data-key="65" >
